@@ -1,4 +1,9 @@
-const textForImg =["Код", "Рыба", "Рыба", "Рыба", "Рыба"];
+const textForImg =["Github + StackOveflow = My code", 
+"Humanity & Plastics", 
+"I'm never ordering staff anymore",
+"Моя курсовая за день до защиты", 
+"When my srorage is full and I have to start deleting all my old memes",
+"Добро пожаловать, надеюсь вы принесли пиво"];
 
 var slide = 0,
     welcomeSlider = document.querySelector('.meme__slider-imgs'),

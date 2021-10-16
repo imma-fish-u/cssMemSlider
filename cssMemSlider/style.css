@@ -34,19 +34,21 @@ body {
 }
 
 .meme__slide-text {
-  line-height: 40px;
-  letter-spacing: 2.3px;
+  width: 25rem;
+  font-family: Verdana, sans-serif;
+  font-size: 1.4rem;
+  color: white;
 }
 
 .meme__slider-bullets {
   display: flex;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 1rem;
 }
 
 .meme__slider-bullet {
-  width: 14px;
-  height: 14px;
+  width: .7rem;
+  height: .7rem;
   border: 3px solid lightskyblue;
   border-radius: 50%;
   background-color: lightskyblue;
