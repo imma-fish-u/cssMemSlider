@@ -131,7 +131,29 @@ input {
 @media screen and (max-width: 768px) {
 
     .meme__container {
+        width: 24rem;
         grid-template-columns: 1fr;
+    }
+
+    .meme__slider {
+        height: 18rem;
+    }
+
+    #img2:checked ~ .meme__slider .meme__slider-imgs .i2
+    {
+        margin-left: -24rem;
+    }
+
+    #img3:checked ~ .meme__slider .meme__slider-imgs .i3{
+        margin-left: -48rem;
+    }
+
+    #img4:checked ~ .meme__slider .meme__slider-imgs .i4{
+        margin-left: -72rem;
+    }
+
+    .meme__img {
+        width: 24rem;
     }
 
     .meme__text-slider {
